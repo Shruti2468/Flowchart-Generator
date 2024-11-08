@@ -1,0 +1,164 @@
+.container {
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between; 
+  min-height: 90vh;
+}
+
+.leftPanel {
+  padding: 20px; 
+  max-width: 400px; 
+  border: 1px solid #ccc; 
+  background-color: #f9f9f9; 
+  width: 100%; 
+  border-right: rgb(31, 78, 150);
+}
+
+
+
+.rightPanel {
+  
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: rgb(31, 78, 150);
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+
+
+.header {
+  font-size: 24px;
+  background-color: rgb(31, 78, 150);  
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+}
+
+.headerContent {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px; 
+  background-color: rgb(31, 78, 150); 
+  font-family: sans-serif;
+}
+
+.heading3{
+  padding-top: 10%;
+}
+.flowchartHeader{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.homeButton {
+  background-color:rgb(31, 78, 150); 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 4px; 
+  text-decoration: none; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.homeButton:hover {
+  background-color: rgb(31, 78, 150); 
+}
+
+.inputbox {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.codeEditor{
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.generateButton {
+  background-color: rgb(31, 78, 150);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.error {
+  color: rgb(12, 12, 12);
+  background-color: rgb(254, 202, 202);
+  height: auto; 
+  width: auto; 
+  padding: 10px ; 
+  margin-top: 8px; 
+  border-radius: 25px; 
+  font-size: 14px;
+}
+
+.saveButton {
+  
+  background-color: rgb(31, 78, 150);
+  color: white;
+}
+
+.saveButton:hover {
+  background-color: rgb(31, 78, 150);
+}
+
+
+.flowchartContainer {
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+
+img {
+  width: 100%;
+  height: auto; 
+}
+.resetButton {
+  background-color:rgb(31, 78, 150); 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.resetButton:hover {
+  background-color: rgb(31, 78, 150); 
+}
+
+
+.highlight {
+  border: 2px solid red; 
+  background-color: rgba(255, 0, 0, 0.1); 
+}
